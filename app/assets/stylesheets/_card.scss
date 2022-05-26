@@ -1,0 +1,23 @@
+.card-flat {
+  .more-details {
+    color: #0079FF;
+    text-decoration: none;
+  }
+
+  .edit {
+    color: #FFC000;
+    text-decoration: none;
+
+  }
+
+  .remove {
+    color: #DC2E40;
+    text-decoration: none;
+  }
+
+  .hover {
+    &:hover {
+      font-weight: bolder;
+    }
+  }
+}

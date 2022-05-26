@@ -12,6 +12,7 @@ Flat.create!(
   description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 75,
   number_of_guests: 3
+  image_url:
 )
 
 Flat.create!(
@@ -20,6 +21,7 @@ Flat.create!(
   description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 75,
   number_of_guests: 3
+  image_url:
 )
 
 Flat.create!(
@@ -28,6 +30,7 @@ Flat.create!(
   description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 75,
   number_of_guests: 3
+  image_url:
 )
 
 Flat.create!(
@@ -36,4 +39,5 @@ Flat.create!(
   description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 75,
   number_of_guests: 3
+  image_url:
 )

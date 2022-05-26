@@ -11,17 +11,24 @@
   </div>
   <div class="row">
     <% @flats.each do |flat| %>
-      <div class="col-md-4">
+      <div class="col-md-4 border p-3 card-flat">
         <h4><%= flat.name %></h4>
         <p><%= flat.address %></p>
-        <i class="material-icons me-2">people</i>
+        <i class="fa-solid fa-user-group">people</i>
         <span><%= flat.number_of_guests %></span>
-        <i class="material-icons me-2">euro_symbol</i>
+        <i class="material-icons me-2 ">euro_symbol</i>
         " <%= flat.price_per_night %> "
-
-        <%= link_to "More Details", flat_path(flat) %>
-        <%= link_to "Edit", edit_flat_path(flat) %>
-        <%= link_to "Remove", flat_path(flat), method: :delete, data: { confirm: 'Are you sure?' } %>
+        <div class="row mt-3">
+          <div class="col-md-4 hover">
+            <%= link_to "More Details", flat_path(flat), class: "more-details" %>
+          </div>
+          <div class="col-md-4 hover">
+            <%= link_to "Edit", edit_flat_path(flat), class: "edit" %>
+          </div>
+          <div class="col-md-4 hover">
+            <%= link_to "Remove", flat_path(flat), method: :delete, data: { confirm: 'Are you sure?' }, class: "remove" %>
+          </div>
+        </div>
       </div>
     <% end %>
   </div>
