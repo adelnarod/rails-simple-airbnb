@@ -1,0 +1,13 @@
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <h1><%= @flat.name %></h1>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="<% @flat.image_url %>" alt="First slide">
+</div>
+<h3>A bit more about this flat...</h3>
+<p><%= @flat.description %></p>
+<div>
+  <h3>Details</h3>
+  <p>Numer of guests: <%= @flat.number_of_guests %></p>
+  <p>Price: <%= @flat.price_per_night %></p>
+</div>
